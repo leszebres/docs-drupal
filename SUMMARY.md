@@ -1,4 +1,8 @@
-# Table of contents
+# Summary
 
-* [Initial page](README.md)
+* [Accueil](README.md)
 
+
+## Médias
+
+* [Image style](medias/image-style.md)

@@ -1,2 +1,3 @@
-# Initial page
+# Documentation
 
+Ceci est une documentation sur Drupal :)
