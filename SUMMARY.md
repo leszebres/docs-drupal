@@ -5,8 +5,8 @@
 ## Drup
 
 * [Drup](drup/drup.md)
-    * [DrupMedia](drup/media.md)
-    * [DrupRouter](drup/router.md)
+* [DrupMedia](drup/media.md)
+* [DrupRouter](drup/router.md)
     
 ## Fonctionnalités
 
@@ -24,6 +24,6 @@
 
 ## Twig
 
-* [Lien](twig/links.md)
+* [Lien](twig/link.md)
 * [Textes formatés](twig/text-formatted.md)
 * [Traduction](twig/translate.md)
