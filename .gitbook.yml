@@ -1,0 +1,15 @@
+root: ./
+
+structure:
+  readme: README.md
+  summary: SUMMARY.md
+
+language: fr
+
+plugins:
+  - anchors
+  - callouts
+  - codesnippet
+  - edit-link
+  - highlight
+  - toc
