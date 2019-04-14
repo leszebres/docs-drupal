@@ -6,9 +6,6 @@ structure:
 
 plugins:
   - headings
-  - callouts
   - copy-code
-  - codesnippet
-  - edit-link
-  - highlight
+  - prism
   - toc
