@@ -1,14 +1,13 @@
 root: ./
 
 structure:
-  readme: ./medias/image-style.md
+  readme: README.md
   summary: SUMMARY.md
 
-language: fr
-
 plugins:
-  - anchors
+  - headings
   - callouts
+  - copy-code
   - codesnippet
   - edit-link
   - highlight
