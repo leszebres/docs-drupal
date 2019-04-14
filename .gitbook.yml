@@ -1,7 +1,7 @@
 root: ./
 
 structure:
-  readme: README.md
+  readme: ./medias/image-style.md
   summary: SUMMARY.md
 
 language: fr
