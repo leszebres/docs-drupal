@@ -1,3 +1,3 @@
 # Lien
 
-    {{ link(link.title, link.url, {'class': ['btn', 'btn--primary']}) }}
+    {{ link(title, \Drupal\Core\Url url, {'class': ['btn', 'btn--primary']}) }}

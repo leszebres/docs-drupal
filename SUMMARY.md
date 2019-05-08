@@ -5,8 +5,16 @@
 ## Drup
 
 * [Drup](drup/drup.md)
+* [DrupPageEntity](drup/entity.md)
+* [DrupField](drup/field.md)
 * [DrupMedia](drup/media.md)
 * [DrupRouter](drup/router.md)
+
+## Développements
+
+* [Mail manager](dev/mail-manager.md)
+* [Custom entity](dev/custom-entity.md)
+
     
 ## Fonctionnalités
 
@@ -27,3 +35,4 @@
 * [Lien](twig/link.md)
 * [Textes formatés](twig/text-formatted.md)
 * [Traduction](twig/translate.md)
+* [Debug](twig/debug.md)

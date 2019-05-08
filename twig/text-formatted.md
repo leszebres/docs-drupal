@@ -4,8 +4,8 @@
 
     '#body' => [
         '#type' => 'processed_text',
-        '#text' => $this->configValues['body']['value'],
-        '#format' => $this->configValues['body']['format']
+        '#text' => $field['value'],
+        '#format' => $field['format']
     ]
 
 ## Twig
