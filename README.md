@@ -1,3 +1,13 @@
 # Documentation
 
-Ceci est une documentation sur Drupal :)
+Ceci est une documentation sur Drupal 8 :)
+
+```
+                                              #####  
+#####  #####  #    # #####    ##   #         #     # 
+#    # #    # #    # #    #  #  #  #         #     # 
+#    # #    # #    # #    # #    # #          #####  
+#    # #####  #    # #####  ###### #         #     # 
+#    # #   #  #    # #      #    # #         #     # 
+#####  #    #  ####  #      #    # ######     #####  
+```
