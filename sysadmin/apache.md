@@ -2,7 +2,7 @@
 
 ## Redirection HTTPS
 
-```
+```text
   RewriteCond %{HTTP_HOST} !^boucard-horticulture.lndo.site$
   RewriteCond %{HTTP_HOST} .
   RewriteCond %{HTTP_HOST} !^www\. [NC]
@@ -13,3 +13,4 @@
   RewriteCond %{HTTP:X-Forwarded-Proto} !https
   RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 ```
+

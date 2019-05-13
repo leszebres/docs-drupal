@@ -1,28 +1,28 @@
-# Styles d'images
+# Image style
 
 ## Nom du style
 
-* mettre les dimensions : (00x00) ou (00)
+* mettre les dimensions : \(00x00\) ou \(00\)
 
-        Bannière grande (1920x400)
-        Contenu moitié de page (400)
+  ```text
+    Bannière grande (1920x400)
+    Contenu moitié de page (400)
+  ```
 
 ## Styles par défaut
 
-### Statiques 
+### Statiques
 
-* banner_full (Bannière grande)
-* banner_small (Bannière petite)
-
-* item_primary (Liste principale)
-
-* content_full (Contenu pleine largeur)
-* content_half (Contenu moitié de page)
-
-* seo (SEO)
-* thumbnail (Vignette) 
+* banner\_full \(Bannière grande\)
+* banner\_small \(Bannière petite\)
+* item\_primary \(Liste principale\)
+* content\_full \(Contenu pleine largeur\)
+* content\_half \(Contenu moitié de page\)
+* seo \(SEO\)
+* thumbnail \(Vignette\) 
 
 ### Adaptatifs
 
-* responsive_banner (Bannière)
-* responsive_content (Contenu)
+* responsive\_banner \(Bannière\)
+* responsive\_content \(Contenu\)
+

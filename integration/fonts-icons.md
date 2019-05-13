@@ -2,11 +2,11 @@
 
 ## Trouver et télécharger une font google
 
-https://transfonter.org/
-https://google-webfonts-helper.herokuapp.com/fonts
+[https://transfonter.org/](https://transfonter.org/) [https://google-webfonts-helper.herokuapp.com/fonts](https://google-webfonts-helper.herokuapp.com/fonts)
 
 ## Sprites SVG
 
-https://la-cascade.io/comment-travailler-avec-des-icones-en-svg/#creer
+[https://la-cascade.io/comment-travailler-avec-des-icones-en-svg/\#creer](https://la-cascade.io/comment-travailler-avec-des-icones-en-svg/#creer)
 
 ## Icons
+

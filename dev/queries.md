@@ -1,5 +1,0 @@
-# Queries
-
-## Débuguer (devel) :
-
-    dpq();

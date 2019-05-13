@@ -2,8 +2,13 @@
 
 ## Toutes les variables
 
-    {{ dump() }}
+```text
+{{ dump() }}
+```
 
 ## Spécifique
 
-    {{ dump(title) }}
+```text
+{{ dump(title) }}
+```
+

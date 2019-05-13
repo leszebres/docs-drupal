@@ -3,25 +3,25 @@
 ## Installer les modules
 
 * Sur Composer
-    * search_api
-    * search_api_autocomplete (si besoin)
+  * search\_api
+  * search\_api\_autocomplete \(si besoin\)
 * Sur Drupal
-    * Database Search
-    * Search API
-    * Search API Autocomplete (si besoin)
+  * Database Search
+  * Search API
+  * Search API Autocomplete \(si besoin\)
 
 ## Configuration
 
 ### Ajouter un serveur
 
 * Name : Serveur de recherche
-* Machine name : server_search
+* Machine name : server\_search
 * Minimum word length : 3
 * Partial matching : Match on parts of a word
 
 ### Ajouter un index
 
-* Name : "Ce qui sera indexé" (produits, contenus, médias)
+* Name : "Ce qui sera indexé" \(produits, contenus, médias\)
 * Sélection des contenus/paquets à indexer
 * Pour chaque paquet : choisir "Only those selected" et sélectionner les types de contenus
 * Ordre : more recent items first
@@ -29,15 +29,15 @@
 
 ### Champs
 
-* Pour un champ de recherche unique recherchant dans plusieurs contenus (node, taxonomy_term) :
+* Pour un champ de recherche unique recherchant dans plusieurs contenus \(node, taxonomy\_term\) :
 * Ajouter les champs correspondant et mettre le type à "Full text" en boost 1.0
-* Ajouter les champs changed (pour trier la vue)
+* Ajouter les champs changed \(pour trier la vue\)
 
 ### Processeurs
 
 Activer les processeurs suivant :
 
-* Accès au contenu (seulement si la recherche est privée)
+* Accès au contenu \(seulement si la recherche est privée\)
 * Entity status
 * HTML filter
 * Ignore case
@@ -57,3 +57,4 @@ Activer les processeurs suivant :
 
 * Cocher tous les suggesters
 * Laisser le reste par défaut et optimiser ensuite si besoin
+
