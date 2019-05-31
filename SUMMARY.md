@@ -33,6 +33,7 @@
 ## Twig
 
 * [Lien](twig/link.md)
+* [Téléphone](twig/phone-number.md)
 * [Textes formatés](twig/text-formatted.md)
 * [Traduction](twig/translate.md)
 * [Debug](twig/debug.md)
@@ -50,6 +51,7 @@
 
 ## Nomenclatures
 
+* [OOCSS](nomenclatures/oocss.md)
 * [Champs \(admin\)](nomenclatures/fields.md)
 * [Variables](nomenclatures/variables.md)
 * [Views](nomenclatures/views.md)
