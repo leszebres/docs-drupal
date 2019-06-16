@@ -18,7 +18,7 @@ drup_site_views_query_alter(ViewExecutable $view, QueryPluginBase $query) {
 
 ## Jointure dans un view query 
 
-```text
+```php
 $definition = [
     'table' => 'reference_entity__field_characteristics',
     'field' => 'entity_id',
@@ -33,7 +33,7 @@ $query->addTable('reference_entity__field_characteristics', 'field_product_id_no
 
 ## Récupérer les valeurs exposées dans un views\_exposed\_form\_alter\(\) :
 
-```text
+```php
 $form_state->get('view')->getExposedInput()
 ```
 

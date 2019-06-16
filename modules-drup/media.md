@@ -8,7 +8,7 @@ Types de médias gérés :
 
 ## Depuis drupField
 
-```text
+```php
 // Récupérer le média d'un champ :
 $drupField->getDrupMedia($fieldname, $type[image, document, video_external])
 
@@ -25,7 +25,7 @@ if (($mediaField = $drupField->getDrupMedia('banner', 'image')) && ($medias = $m
 
 ## Directement
 
-```
+```php
 $mediaEntity = new DrupMediaXXX($entity);
 ```
 

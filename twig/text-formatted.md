@@ -2,7 +2,7 @@
 
 ## PHP
 
-```text
+```php
 '#body' => [
     '#type' => 'processed_text',
     '#text' => $field['value'],
@@ -12,7 +12,7 @@
 
 ## Twig
 
-```text
+```twig
 {{ body }}
 ```
 

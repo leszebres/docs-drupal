@@ -1,6 +1,6 @@
 # DrupPageEntity
 
-```text
+```php
 $drupPageEntity = DrupPageEntity::loadEntity();
 ```
 

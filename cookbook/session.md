@@ -7,14 +7,14 @@
 
 ## SET :
 
-```text
+```php
 $userSession = \Drupal::service('SERVICE')->get('drup');
 $userSession->set('key', $value);
 ```
 
 ## GET :
 
-```text
+```php
 $userSession = \Drupal::service('SERVICE')->get('drup');
 $value = $userSession->get('key');
 ```

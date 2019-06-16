@@ -2,7 +2,7 @@
 
 ## DrupRouter
 
-```text
+```php
 $drupRouter = \Drupal::service('drup_router.router');
 
 // Récupérer le nom de la route courante
@@ -16,7 +16,7 @@ if ($drupRouter->isRoute('my-route')) {
 
 ## SystemRouter
 
-```text
+```php
 $systemRouter = \Drupal::routeMatch();
 $systemRouteName = $systemRouter->getRouteName();
 // ou

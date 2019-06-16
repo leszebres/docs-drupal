@@ -2,19 +2,19 @@
 
 ## Config selon la langue courante :
 
-```text
+```php
 $drupSettings = new DrupSettings();
 ```
 
 ## Config indépendante de la langue :
 
-```text
+```php
 $drupSettingsUnd = new DrupSettings('und');
 ```
 
 ## Switcher de config :
 
-```text
+```php
 $drupSettings->setNeutralLang();
 $drupSettings->setLanguage();
 ```

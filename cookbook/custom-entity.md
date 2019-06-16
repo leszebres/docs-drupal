@@ -2,7 +2,7 @@
 
 ## Générer avec Drupal console
 
-```text
+```bash
 lando drupal generate:entity:content
 ```
 

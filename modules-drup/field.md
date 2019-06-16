@@ -2,14 +2,14 @@
 
 ## Instancier
 
-```text
+```php
 $drupField = $node->drupField(); 
 $drupField = new DrupField($entity);
 ```
 
 ## Récupérer
 
-```text
+```php
 $value = $drupField->getValue('field', 'key');
 $values = $drupField->getValues('field', 'key');
 $entities = $drupField->getReferencedEntities('field');

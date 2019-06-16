@@ -2,7 +2,7 @@
 
 ## Get form 
 
-```text
+```php
 \Drupal::formBuilder()->getForm('Drupal\module\Form\ModuleCustomForm');
 ```
 

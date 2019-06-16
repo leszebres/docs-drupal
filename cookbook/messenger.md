@@ -1,6 +1,6 @@
 # Messenger
 
-```text
+```php
 $messenger = \Drupal::messenger();
 
 $messenger->addMessage($this->t('Missing context'), 'error');

@@ -1,6 +1,6 @@
 # Date
 
-```text
+```php
 // Formatter une date depuis un timestamp :
 $dateFormatted : \Drupal::service('date.formatter')->format($entity->changed->value, 'custom', 'd/m/Y');
 

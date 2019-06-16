@@ -2,7 +2,7 @@
 
 ## Envoyer
 
-```text
+```php
 $mailManager = \Drupal::service('plugin.manager.mail');
 $params = [
     'subject' => 'Sujet de l\'email';
@@ -23,7 +23,7 @@ if ($result['result']) {
 
 ## Hook mail
 
-```text
+```php
 /**
  * Implements hook_mail().
  */

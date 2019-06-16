@@ -2,13 +2,13 @@
 
 ## Avec contexte :
 
-```text
+```twig
 {{ 'January'|t({}, {'context': 'Long month name'}) }}
 ```
 
 ## Avec remplacements
 
-```text
+```twig
 {{ "Submitted by !author on @date"|t({ '!author': author, '@date': date }) }}
 ```
 

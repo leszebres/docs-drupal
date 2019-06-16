@@ -2,26 +2,26 @@
 
 ## Current URL
 
-```text
+```php
 $currentPath = \Drupal::service('path.current')->getPath();
 ```
 
 ## Base URL
 
-```text
+```php
 $currentPath = \Drupal::request()->getBaseUrl();
 ```
 
 ## Alias d'une entité
 
-```text
+```php
 $aliasManager = \Drupal::service('path.alias_manager');
 $url = $aliasManager->getAliasByPath('/path/entity_id');
 ```
 
 ## Route controller
 
-```text
+```php
 return Url::fromRoute('pommier.document_download', [
     'entity_type' => $entity_type,
     'entity_id' => $entity_id,
@@ -31,7 +31,7 @@ return Url::fromRoute('pommier.document_download', [
 
 ## Uri d'une entité interne \(function link\(\) dans twig\) :
 
-```text
+```php
 $url = $entity->toUrl();
 // ou
 $url = Url::fromUri('internal:/node/NID);
@@ -39,13 +39,13 @@ $url = Url::fromUri('internal:/node/NID);
 
 ## Routing
 
-```text
+```php
 $url = Url::fromRoute(‘drup_settings.admin_form’, [], [‘fragment’ => ‘edit-contact-infos’]);
 ```
 
 ## Récupérer un paramètre
 
-```text
+```php
 $parameter = \Drupal::request()->get('keywords');
 $keywords = Xss::filter($parameter);
 ```
