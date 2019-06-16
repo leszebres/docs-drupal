@@ -13,20 +13,18 @@
 
 ## Cookbook
 
-* [Theme path](cookbook/theme-path.md)
-* [Base url](cookbook/base-url.md)
-* [Current language](cookbook/current-language.md)
-* [Get form](cookbook/get-form.md)
+* [Form](cookbook/form.md)
 * [Urls](cookbook/urls.md)
 * [Date](cookbook/date.md)
 * [Views](cookbook/views.md)
 * [Messenger](cookbook/messenger.md)
 * [Session](cookbook/session.md)
 * [Drush](cookbook/drush.md)
-* [isFront](cookbook/is-front.md)
 * [Webform](cookbook/webform.md)
-* [Fonticon](cookbook/fonticon.md)
 * [Queries](cookbook/queries.md)
+* [Cache](cookbook/cache.md)
+* [Theme path](cookbook/theme-path.md)
+* [Language](cookbook/language.md)
 * [Mail manager](cookbook/mail-manager.md)
 * [Custom entity](cookbook/custom-entity.md)
 
@@ -42,6 +40,7 @@
 
 * [Protips génériques](integration/protips.md)
 * [Fonts, svg & icons](integration/fonts-icons.md)
+* [Fonticon](integration/fonticon.md)
 * [IE 11](integration/ie11.md)
 
 ## Fonctionnalités

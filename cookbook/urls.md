@@ -6,6 +6,12 @@
 $currentPath = \Drupal::service('path.current')->getPath();
 ```
 
+## Base URL
+
+```text
+$currentPath = \Drupal::request()->getBaseUrl();
+```
+
 ## Alias d'une entité
 
 ```text

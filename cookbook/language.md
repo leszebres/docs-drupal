@@ -1,4 +1,4 @@
-# Current language
+# Language
 
 ```text
 $language = \Drupal::languageManager()->getCurrentLanguage();
