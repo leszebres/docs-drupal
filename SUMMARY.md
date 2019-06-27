@@ -28,6 +28,7 @@
 * [Queries](cookbook/queries.md)
 * [Cache](cookbook/cache.md)
 * [Theme path](cookbook/theme-path.md)
+* [Token](cookbook/token.md)
 * [Language](cookbook/language.md)
 * [Mail manager](cookbook/mail-manager.md)
 * [Custom entity](cookbook/custom-entity.md)
