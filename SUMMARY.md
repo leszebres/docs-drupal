@@ -52,6 +52,7 @@
 
 * [Search API](fonctionnalites/search-api.md)
 * [Multilingue](fonctionnalites/multilingual.md)
+* [Créer un import](fonctionnalites/import.md)
 
 ## Nomenclatures
 
