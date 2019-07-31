@@ -10,8 +10,8 @@
 * utility/my-utility.js pour les utils à charger sur certaines pages
 
 *theme.js* et *all.js* sont les deux seuls fichiers instanciés au chargement de la page.
-Tout ce qu'il y a dans *theme/** doit être instancié par un objet via `#attached`.
-Tout ce qu'il y a dans *utility/** doit être instancié via `common.load('myUtility');
+Tout ce qu'il y a dans *theme/* doit être instancié par un objet via `#attached`.
+Tout ce qu'il y a dans *utility/* doit être instancié via `common.load('myUtility');
 
 ## Modèle de la librarie JS
 
