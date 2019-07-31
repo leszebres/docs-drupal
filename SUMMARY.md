@@ -56,6 +56,7 @@
 
 ## Nomenclatures
 
+* [ThemeJS](nomenclatures/theme-js.md)
 * [OOCSS](nomenclatures/oocss.md)
 * [Champs \(admin\)](nomenclatures/fields.md)
 * [Variables](nomenclatures/variables.md)
