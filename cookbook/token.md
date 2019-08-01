@@ -19,3 +19,4 @@ $string = $token->replace('Ma chaine contient un token du nom de : [token:name]'
     'entity_type' => $entity
 ]);
 ```
+

@@ -1,8 +1,8 @@
-# States API
+# States
 
 ## Documentation
 
-https://api.drupal.org/api/drupal/core!includes!common.inc/function/drupal_process_states/8.2.x
+[https://api.drupal.org/api/drupal/core!includes!common.inc/function/drupal\_process\_states/8.2.x](https://api.drupal.org/api/drupal/core!includes!common.inc/function/drupal_process_states/8.2.x)
 
 ## Principe
 
@@ -42,3 +42,4 @@ $state = [
     ]
 ];
 ```
+

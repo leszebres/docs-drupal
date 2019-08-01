@@ -3,12 +3,13 @@
 ## Supprimer les doublons des vues
 
 Selon la configuration des vues, les items de listes peuvent apparaître en doublon.
-- Via l'interface de la vue, activer le distinct appliquera un `SELECT DISTINCT` ou un `GROUP BY` sur tous les champs, donc inutile.
-- Activer l'aggrégation engendrera des pertes de performances.
+
+* Via l'interface de la vue, activer le distinct appliquera un `SELECT DISTINCT` ou un `GROUP BY` sur tous les champs, donc inutile.
+* Activer l'aggrégation engendrera des pertes de performances.
 
 **Solution :**
 
-Ne pas ajouter l'id des entités via l'admin 
+Ne pas ajouter l'id des entités via l'admin
 
 ```text
 drup_site_views_query_alter(ViewExecutable $view, QueryPluginBase $query) {
@@ -16,7 +17,7 @@ drup_site_views_query_alter(ViewExecutable $view, QueryPluginBase $query) {
 }
 ```
 
-## Jointure dans un view query 
+## Jointure dans un view query
 
 ```php
 $definition = [

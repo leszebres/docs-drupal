@@ -2,13 +2,13 @@
 
 ## Toutes les variables
 
-```twig
+```text
 {{ dump() }}
 ```
 
 ## Spécifique
 
-```twig
+```text
 {{ dump(title) }}
 ```
 

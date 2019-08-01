@@ -12,7 +12,7 @@
 
 ## Twig
 
-```twig
+```text
 {{ body }}
 ```
 

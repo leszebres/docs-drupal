@@ -1,21 +1,19 @@
-# Theme JS
+# ThemeJS
 
 ## Nommenclature des fichiers
 
 * theme.js pour l'init
 * all.js pour toutes les pages
-* theme/form-*.js pour les formulaires
-* theme/view-*.js pour les vues
-* theme/block-*.js pour les blocs
+* theme/form-\*.js pour les formulaires
+* theme/view-\*.js pour les vues
+* theme/block-\*.js pour les blocs
 * utility/my-utility.js pour les utils à charger sur certaines pages
 
-*theme.js* et *all.js* sont les deux seuls fichiers instanciés au chargement de la page.
-Tout ce qu'il y a dans *theme/* doit être instancié par un objet via `#attached`.
-Tout ce qu'il y a dans *utility/* doit être instancié via `common.load('myUtility')`;
+_theme.js_ et _all.js_ sont les deux seuls fichiers instanciés au chargement de la page. Tout ce qu'il y a dans _theme/_ doit être instancié par un objet via `#attached`. Tout ce qu'il y a dans _utility/_ doit être instancié via `common.load('myUtility')`;
 
 ## Modèle de la librarie JS
 
-```js
+```javascript
 (function ($, Drupal) {
     'use strict';
 
@@ -68,7 +66,7 @@ Tout ce qu'il y a dans *utility/* doit être instancié via `common.load('myUtil
 
 ## Déclarer la librarie JS
 
-```yml
+```text
 theme-view-example:
   version: '0.1'
   js:
@@ -95,3 +93,4 @@ function drup_theme_preprocess_views_view(&$variables) {
     }
 }
 ```
+

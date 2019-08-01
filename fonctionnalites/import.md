@@ -1,6 +1,8 @@
-# Modèle d'un import
+# Créer un import
 
 ## Télécharger le modèle
+
+{% file src="../.gitbook/assets/module\_import.zip" %}
 
 ```text
 @file /attachments/module_import.zip
@@ -15,7 +17,6 @@
 * Queue : les opérations sont traitées une par une dans une Queue
 * A la fin de la queue : un rapport email est envoyé
 
-
 ## Détail du modèle ci-dessus
 
 ### 1. Créer un module
@@ -29,10 +30,10 @@ module_import/
             QueueWorker/
                 MyImportQueueWorker.php
     templates/
-        my-import--report-email.html.twig
+        module-import--report-email.html.twig
     module_import.module
 ```
-    
+
 ### 2. Classe d'import
 
 ```php
@@ -67,7 +68,7 @@ class MyImport {
      *
      * @var string
      */
-    public static $importId = 'my_import';
+    public static $importId = 'module_import';
 
     /**
      * Nom de la tâche d'import
@@ -120,6 +121,13 @@ class MyImport {
      * @var array
      */
     public static $report = [];
+
+    /**
+     * Variable drupSettings où sont renseignées les emails recevant les rapports
+     *
+     * @var string
+     */
+    protected static $drupSettingsReportEmail = 'module_import_report_email';
 
 
     /**
@@ -308,13 +316,13 @@ class MyImport {
         ];
         $params = [
             'headers' => [],
-            'to' => self::$drupSettings->getValue('settings_report_email') ?: 'dev@leszebres.fr',
+            'to' => self::$drupSettings->getValue(self::$drupSettingsReportEmail) ?: 'dev@leszebres.fr',
             'subject' => self::$importTitle,
             'message' => \Drupal::service('renderer')->renderPlain($renderParams)
         ];
 
         // Envoi email
-        $result = self::$mailManager->mail('my_module_name', self::$importId . '_report', $params['to'], 'fr', $params, null, true);
+        $result = self::$mailManager->mail('module_import', self::$importId . '_report', $params['to'], 'fr', $params, null, true);
 
         if ($result['result']) {
             self::setLog('Rapport envoyé par email à ' . $params['to']);
@@ -368,13 +376,12 @@ class MyImport {
 }
 ```
 
-
 ### 3. Créer un QueueWorker
 
 ```php
 <?php
 
-namespace Drupal\opendata\Plugin\QueueWorker;
+namespace Drupal\module_import\Plugin\QueueWorker;
 
 use Drupal\Core\Queue\QueueWorkerBase;
 
@@ -384,7 +391,7 @@ use Drupal\Core\Queue\QueueWorkerBase;
  * @package Drupal\module_import\Plugin\QueueWorker
  *
  * @QueueWorker(
- *   id = "my_import_queue_worker",
+ *   id = "module_import_queue_worker",
  *   title = @Translation("Import à moi")
  * )
  */
@@ -400,12 +407,12 @@ class MyImportQueueWorker extends QueueWorkerBase {
         $function($data);
     }
 }
-```
 
+```
 
 ### 4. Template du rapport d'import
 
-```twig
+```text
 <tr>
     <td>
         <h3>{{ title }}</h3>
@@ -474,4 +481,6 @@ function module_import_cron() {
     $import = MyImport::create(\Drupal::getContainer());
     $import->run();
 }
+
 ```
+

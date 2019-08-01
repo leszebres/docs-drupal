@@ -17,7 +17,8 @@ class MonBlock extends DrupBlockBase {
 public function getCacheTags() {
     $customTags = ['preorder_entity_list'];
     $tags = DrupBlock::getDefaultCacheTags() + $customTags;
-    
+
     return Cache::mergeTags(parent::getCacheTags(), $tags);
 }
 ```
+

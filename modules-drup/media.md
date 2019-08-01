@@ -2,9 +2,9 @@
 
 Types de médias gérés :
 
-- **Image** : rendu d'une image selon un style d'image (statique rendant une image, ou dynamique rendant un élément picture avec un style d'image différent selon des breakpoints responsives)
-- **Document** : fichier téléchargeable
-- **Vidéo Externe** : vidéo Youtube ou Viméo, agrégée via oEmbed, avec gestion de la maniature
+* **Image** : rendu d'une image selon un style d'image \(statique rendant une image, ou dynamique rendant un élément picture avec un style d'image différent selon des breakpoints responsives\)
+* **Document** : fichier téléchargeable
+* **Vidéo Externe** : vidéo Youtube ou Viméo, agrégée via oEmbed, avec gestion de la maniature
 
 ## Depuis drupField
 
@@ -29,15 +29,15 @@ if (($mediaField = $drupField->getDrupMedia('banner', 'image')) && ($medias = $m
 $mediaEntity = new DrupMediaXXX($entity);
 ```
 
-On peut passer en paramètre un/des Id de médias ou directement une/des entité(s) Media.
+On peut passer en paramètre un/des Id de médias ou directement une/des entité\(s\) Media.
 
 ### Methodes :
 
 Chaque méthode retourne un tableau.
 
-- $mediaEntity->renderMedias(...)
-- $mediaEntity->getMediasUrl(...)
-- $mediaEntity->getMediasData(...)
+* $mediaEntity-&gt;renderMedias\(...\)
+* $mediaEntity-&gt;getMediasUrl\(...\)
+* $mediaEntity-&gt;getMediasData\(...\)
 
 Selon le type de Media renseigné, les méthodes ont des rendus différents.
 

@@ -2,7 +2,7 @@
 
 ## Redirection HTTPS
 
-```apacheconfig
+```text
   RewriteCond %{HTTP_HOST} !^boucard-horticulture.lndo.site$
   RewriteCond %{HTTP_HOST} .
   RewriteCond %{HTTP_HOST} !^www\. [NC]

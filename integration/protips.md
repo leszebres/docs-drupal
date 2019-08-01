@@ -13,17 +13,16 @@ Pour positionner verticalement un élément, selon les contextes :
 
 ### En static :
 
-```scss
+```css
 .item {
     display: inline-flex;
     align-item: center;
 }
-
 ```
 
 ### En absolute :
 
-```scss
+```css
 .item {
     position: absolute; 
     top: 50%; // ne pas mettre ici de valeurs en dur en px
@@ -33,7 +32,7 @@ Pour positionner verticalement un élément, selon les contextes :
 
 ## Limiter la taille d'un block
 
-```scss
+```css
 // Contexte :
 .container {
     background: #000;
