@@ -16,3 +16,7 @@ apt-get autoclean
 apt-get autoremove --purge
 ```
 
+### Màj PHP
+
+- https://computingforgeeks.com/how-to-install-php-7-3-on-debian-9-debian-8/
+- https://linuxize.com/post/how-to-install-php-on-ubuntu-18-04/
