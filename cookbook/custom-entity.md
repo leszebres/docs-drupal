@@ -8,7 +8,4 @@ lando drupal generate:entity:content
 
 ## Fichier SQL starter \(translatable, fieldable, mais non revisionable\)
 
-```text
-@file /attachments/custom-entity.sql
-```
-
+{% file src="../.gitbook/assets/custom-entity.sql" %}

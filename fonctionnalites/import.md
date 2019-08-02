@@ -2,11 +2,8 @@
 
 ## Télécharger le modèle
 
-{% file src="../.gitbook/assets/module\_import.zip" %}
+{% file src="../.gitbook/assets/module-import.zip" %}
 
-```text
-@file /attachments/module_import.zip
-```
 
 ## Principe de fonctionnement
 
